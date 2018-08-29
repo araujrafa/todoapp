@@ -1,13 +1,7 @@
 import * as React from 'react';
 import { Text, View, TextInput, StyleSheet, FlatList, Button } from 'react-native';
-import { List, ListItem } from 'react-native-elements'
+import { List, ListItem, Card } from 'react-native-elements'
 import { Constants } from 'expo';
-
-// You can import from local files
-import AssetExample from './components/AssetExample';
-
-// or any pure javascript modules available in npm
-import { Card } from 'react-native-elements'; // Version can be specified in package.json
 
 export default class App extends React.Component {
   constructor(props) {
